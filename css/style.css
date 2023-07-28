@@ -15,15 +15,7 @@ body {
   height: 70px;
   border-radius: 50%;
 }
-@media screen and (max-width: 580px) {
-  body {
-    background-attachment: initial;
-  }
 
-  .imgCrypto {
-    width: 150px;
-  }
-}
 
 .header {
   border-bottom: 2px solid white;
@@ -164,6 +156,22 @@ body {
   border: 2px solid;
 }
 
+
+
+footer .imgLogo {
+  width: 80px;
+  border-radius: 50%;
+}
+
+footer .link {
+  transition: all 0.7s;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+footer .link:hover {
+  font-size: 30px;
+}
 @media (min-width: 581px) and (max-width: 990px) {
   body {
     background-attachment: initial;
@@ -212,20 +220,4 @@ body {
     border-bottom: 2px solid;
   }
 }
-
-footer .imgLogo {
-  width: 80px;
-  border-radius: 50%;
-}
-
-footer .link {
-  transition: all 0.7s;
-  padding-right: 20px;
-  display: inline-block;
-}
-
-footer .link:hover {
-  font-size: 30px;
-}
-
 /*# sourceMappingURL=style.css.map */
