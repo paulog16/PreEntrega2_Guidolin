@@ -1,0 +1,28 @@
+.header {
+    border-bottom: 2px solid white;
+    margin: 30px;
+    box-shadow: 10px 10px 20px  rgb(174, 175, 176);
+
+    .imgLogo {
+        width: 70px;
+    }
+
+    .imgLogo {
+        width: 70px;
+    }
+
+    .hamburguesa {
+        background-color: aliceblue;
+    }
+
+    .link {
+        font-size: 20px;
+        color: white;
+        transition: all 0.7s;
+    }
+
+    .link:hover {
+        font-size: 30px;
+    }
+
+}

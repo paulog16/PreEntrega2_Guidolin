@@ -1,99 +1,143 @@
-/* HEADER */
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap');
+body {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    background-attachment: initial;
+  }
+}
 .header {
-
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid white;
-    margin: 20px;
+  border-bottom: 2px solid white;
+  margin: 30px;
+  box-shadow: 10px 10px 20px rgb(174, 175, 176);
+}
+.header .imgLogo {
+  width: 70px;
+}
+.header .imgLogo {
+  width: 70px;
+}
+.header .hamburguesa {
+  background-color: aliceblue;
+}
+.header .link {
+  font-size: 20px;
+  color: white;
+  transition: all 0.7s;
+}
+.header .link:hover {
+  font-size: 30px;
 }
 
-.body {
-    background-image: url(../img/fondo.jpg);
-
-    background-size: cover;
-   background-attachment: fixed;
-    width: 100%;
-    height: 100%;
-}
-
-ul li a {
-    color: #1A2456;
-}
-
-.link {
-    color: white;
-    transition: all 0.7s;
-    font-size: 15px;
-    border-right: 1px solid white;
-
-}
-
-.link:hover {
-    color: white;
-    font-size: 25px;
-}
-
-.icono {
-
-    transition: all 0.7s;
-}
-
-.icono:hover {
-
-    font-size: 20px;
-}
-
-.imgLogo {
-    width: 70px;
-    border-radius: 20%;
-}
-
-
-
-/* TARGETCRYPTO */
 .targetCrypto {
-    margin: 20px;
-    border-radius: 20px;
-    border-bottom: 2px solid white;
-
+  border-radius: 50px;
+  border-bottom: 2px solid white;
 }
-
-.botonCrypto {
-    border: 2px solid;
-    color: white;
-    transition: all 0.7s;
+.targetCrypto .botonCrypto {
+  color: white;
+  border: 2px solid white;
+  transition: all 0.7s;
 }
-
-.botonCrypto:hover {
-    background-color: red;
-    color: white;
-    border: 2px solid black;
-    font-size: 25px;
-    box-shadow: 2px 5px 5px black;
-}
-
-.zflip {
-    width: 200px;
-    height: 300px;
+.targetCrypto .botonCrypto:hover {
+  font-size: 30px;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 2px 20px 10px rgb(28, 28, 27);
 }
 
 .general {
-    width: 100%;
+  width: 100%;
+}
+.general .botonCrypto {
+  color: white;
+  border: 2px solid white;
+  transition: all 0.7s;
+}
+.general .botonCrypto:hover {
+  font-size: 30px;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 2px 20px 10px rgb(28, 28, 27);
 }
 
-.hamburguesa {
+.carrusel {
+  margin: 90px;
+}
+
+.imgCrypto {
+  width: 500px;
+  height: 400px;
+}
+
+.carta {
+  margin: 20px;
+  background-color: black;
+  color: white;
+}
+
+.imgCard {
+  height: 200px;
+}
+
+.comentarios {
+  margin: 50px;
+  border-bottom: 2px solid red;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 10px 10px rgb(186, 186, 186);
+}
+
+.acordion {
+  border-bottom: 2px solid red;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 581px) and (max-width: 990px) {
+  body {
+    background-attachment: initial;
+  }
+  .seccionflip {
+    border: none;
+  }
+  .titulo {
     color: white;
-    background-color: rgb(123, 123, 123);
+  }
+  .zflip {
+    width: 300px;
+  }
 }
-.titulo{
-    text-transform: uppercase;
+@media screen and (max-width: 580px) {
+  body {
+    background-attachment: initial;
+  }
+  .zflip {
+    width: 200px;
+  }
+  .titulo {
+    color: white;
+  }
+  .carrusel {
+    margin: 0;
+  }
+  .carta {
+    display: flex;
+  }
 }
-@media screen and (max-width:580px) {
-    .body{
-        background-attachment: initial;
-    }
-    .titulo{
-        color: white;
-    }
+footer .imgLogo {
+  width: 80px;
+  border-radius: 50%;
 }
+footer .link {
+  transition: all 0.7s;
+  padding-right: 20px;
+  display: inline-block;
+}
+footer .link:hover {
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
