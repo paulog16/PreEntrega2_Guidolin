@@ -1,18 +1,27 @@
 body {
-    background-image: url(../img/fondo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-color: black;
+  position: relative;
+}
+.wsp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: green;
+  color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  z-index: 100;
 }
 
-@media screen and (max-width:580px) {
-  body{
-    background-attachment: initial
+@media screen and (max-width: 580px) {
+  body {
+    background-attachment: initial;
   }
-  .imgCrypto{
-    width: 150px
+  .imgCrypto {
+    width: 150px;
   }
 }
 @import "header";
 @import "principalHomeCrypto";
-@import "footer"
+@import "footer";

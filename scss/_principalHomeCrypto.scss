@@ -1,116 +1,122 @@
 .targetCrypto {
-    border-radius: 50px;
-    border-bottom: 2px solid white;
+  border-radius: 50px;
+  border-bottom: 2px solid white;
 
-    .botonCrypto {
-        color: white;
-        border: 2px solid white;
-        transition: all 0.7s;
-    }
+  .botonCrypto {
+    color: white;
+    border: 2px solid white;
+    transition: all 0.7s;
+  }
 
-    .botonCrypto:hover {
-        font-size: 30px;
-        color: white;
-        border: 2px solid white;
-        box-shadow: 2px 20px 10px rgb(28, 28, 27);
-    }
+  .botonCrypto:hover {
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 2px 20px 10px rgb(28, 28, 27);
+  }
+}
+.bu {
+  font-size: 30px;
+  background: linear-gradient(#6b76ab, #1b213d);
+  border-radius: 20px;
+  box-shadow: 5px 5px white;
+  transition: all 0.7s;
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-transform: uppercase;
+  }
+}
+.bu:hover {
+  transform: scale(1.3);
+  background: linear-gradient(to left, white, black);
 }
 
 .general {
-    width: 100%;
+  width: 100%;
 
-    .botonCrypto {
-        color: white;
-        border: 2px solid white;
-        transition: all 0.7s;
-    }
+  .botonCrypto {
+    color: white;
+    border: 2px solid white;
+    transition: all 0.7s;
+  }
 
-    .botonCrypto:hover {
-        font-size: 30px;
-        color: white;
-        border: 2px solid white;
-        box-shadow: 2px 20px 10px rgb(28, 28, 27);
-    }
-
-
+  .botonCrypto:hover {
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 2px 20px 10px rgb(28, 28, 27);
+  }
 }
 
 .carrusel {
-    margin: 90px;
+  margin: 90px;
 }
 
 .imgCrypto {
-    width: 500px;
-    height: 400px;
+  width: 500px;
+  height: 400px;
 }
 
-
-
-
 .carta {
-
-    margin: 20px;
-    background-color: black;
-    color: white;
+  margin: 20px;
+  background-color: black;
+  color: white;
 }
 
 .imgCard {
-    height: 200px;
+  height: 200px;
 }
+.prueba{
+    transition: all 0.7s;
+}
+.prueba:hover{
+    transform: skew(-10deg,-20deg);
+}
+.zflip{
+    transition: all 0.7s;
+}
+.zflip:hover{
+    transform: skew(-10deg,-15deg);
+}
+@media (min-width: 581px) and (max-width: 990px) {
+  body {
+    background-attachment: initial;
+  }
 
-.comentarios {
-    margin: 50px;
-    border-bottom: 2px solid red;
-    border-radius: 20px;
+  .seccionflip {
+    border: none;
+  }
+
+  .titulo {
     color: white;
-    box-shadow: 10px 10px rgb(186, 186, 186);
-}
-.acordion{
- 
-    border-bottom: 2px solid red;
-    margin-bottom: 100px;
-  
+  }
+
+  .zflip {
+    width: 300px;
+  }
 }
 
+@media screen and (max-width: 580px) {
+  body {
+    background-attachment: initial;
+  }
 
-@media (min-width:581px) and (max-width:990px) {
-    body {
-        background-attachment: initial;
-    }
+  .zflip {
+    width: 200px;
+  }
 
-    .seccionflip {
-        border: none;
+  .titulo {
+    color: white;
+  }
 
-    }
+  .carrusel {
+    margin: 0;
+  }
 
-    .titulo {
-        color: white;
-    }
-
-    .zflip {
-        width: 300px;
-    }
-}
-
-@media screen and (max-width:580px) {
-    body {
-        background-attachment: initial
-    }
-
-    .zflip {
-        width: 200px;
-    }
-
-    .titulo {
-        color: white;
-    }
-
-    .carrusel {
-        margin: 0;
-    }
-
-    .carta {
-        display: flex;
-
-    }
+  .carta {
+    display: flex;
+  }
 }

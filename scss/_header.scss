@@ -1,28 +1,27 @@
 .header {
-    border-bottom: 2px solid white;
-    margin: 30px;
-    box-shadow: 10px 10px 20px  rgb(174, 175, 176);
+  border-bottom: 2px solid white;
 
-    .imgLogo {
-        width: 70px;
-    }
+  box-shadow: 10px 10px 20px rgb(174, 175, 176);
 
-    .imgLogo {
-        width: 70px;
-    }
+  .imgLogo {
+    width: 70px;
+  }
 
-    .hamburguesa {
-        background-color: aliceblue;
-    }
+  .imgLogo {
+    width: 70px;
+  }
 
-    .link {
-        font-size: 20px;
-        color: white;
-        transition: all 0.7s;
-    }
+  .hamburguesa {
+    background-color: aliceblue;
+  }
 
-    .link:hover {
-        font-size: 30px;
-    }
+  .link {
+    font-size: 20px;
+    color: white;
+    transition: all 0.7s;
+  }
 
+  .link:hover {
+    transform: scale(1.2);
+  }
 }
